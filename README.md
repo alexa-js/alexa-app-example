@@ -1,2 +1,2 @@
-# alexa-app-heroku-button
-A one-click template for developing Alexa skills via alexa-app for Heroku.
+# alexa-app-example
+A one-click template for developing Alexa skills via alexa-app on Heroku.
