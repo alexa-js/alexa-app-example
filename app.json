@@ -1,0 +1,7 @@
+{
+  "name": "Alexa Skill (alexa-app) Starter",
+  "description": "A simple alexa-app for Heroku.",
+  "repository": "https://github.com/tejashah88/alexa-app-heroku-button",
+  "logo": "https://avatars0.githubusercontent.com/u/25057028",
+  "keywords": ["alexa", "amazon", "echo", "skills"]
+}
