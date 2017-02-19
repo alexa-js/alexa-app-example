@@ -1,0 +1,30 @@
+{
+  "name": "alexa-app-example",
+  "version": "0.0.1",
+  "description": "A simple alexa-app example for Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejashah88/alexa-app-example.git"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "echo",
+    "skills"
+  ],
+  "author": "Tejas Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tejashah88/alexa-app-example/issues"
+  },
+  "dependencies": {
+    "alexa-app": "^3.1.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1"
+  }
+}
