@@ -1,7 +1,7 @@
 {
   "name": "alexa-app-example",
   "version": "0.0.1",
-  "description": "A simple alexa-app example for Heroku.",
+  "description": "An example Alexa Skill project using the alexa-app module with Express.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -23,7 +23,7 @@
     "url": "https://github.com/tejashah88/alexa-app-example/issues"
   },
   "dependencies": {
-    "alexa-app": "^3.1.0",
+    "alexa-app": "^3.2.0",
     "ejs": "^2.5.6",
     "express": "^4.14.1"
   }

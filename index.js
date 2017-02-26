@@ -9,7 +9,7 @@ var alexaApp = new alexa.app("test");
 
 alexaApp.express({
   expressApp: app,
-  router: express.Router(),
+  //router: express.Router(),
 
   // verifies requests come from amazon alexa. Must be enabled for production.
   // You can disable this if you're running a dev environment and want to POST
@@ -43,5 +43,4 @@ alexaApp.intent("nameIntent", {
   }
 );
 
-app.listen(PORT);
-console.log("Listening on port " + PORT + ", try http://localhost:" + PORT + "/test");
+app.listen(PORT, () => console.log("Listening on port " + PORT + "."));
