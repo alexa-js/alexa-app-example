@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tejashah88/alexa-app-example.git"
+    "url": "git+https://github.com/alexa-js/alexa-app-example.git"
   },
   "keywords": [
     "alexa",
@@ -20,7 +20,7 @@
   "author": "Tejas Shah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tejashah88/alexa-app-example/issues"
+    "url": "https://github.com/alexa-js/alexa-app-example/issues"
   },
   "dependencies": {
     "alexa-app": "^4.0.0",

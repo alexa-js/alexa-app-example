@@ -1,7 +1,7 @@
 {
   "name": "alexa-app example",
   "description": "A simple alexa-app example for Heroku.",
-  "repository": "https://github.com/tejashah88/alexa-app-example",
+  "repository": "https://github.com/alexa-js/alexa-app-example",
   "logo": "https://avatars0.githubusercontent.com/u/25057028",
   "keywords": ["alexa", "amazon", "echo", "skills"],
   "buildpacks": [

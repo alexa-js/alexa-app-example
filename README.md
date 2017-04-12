@@ -7,7 +7,7 @@ An example Alexa Skill project using the [alexa-app](https://github.com/alexa-js
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-git clone git@github.com:tejashah88/alexa-app-example.git # or clone your own fork
+git clone git@github.com:alexa-js/alexa-app-example.git # or clone your own fork
 cd alexa-app-example
 npm install
 npm start
@@ -29,7 +29,7 @@ heroku open
 
 Alternatively, you can deploy your own copy of the app using this button:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/tejashah88/alexa-app-example)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/alexa-js/alexa-app-example)
 
 Your app should now be running on *https://`<app-name>`.herokuapp.com*, where `<app-name>` is the heroku app name.
 
