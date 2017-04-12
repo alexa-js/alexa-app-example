@@ -23,8 +23,8 @@
     "url": "https://github.com/tejashah88/alexa-app-example/issues"
   },
   "dependencies": {
-    "alexa-app": "^3.2.0",
+    "alexa-app": "^4.0.0",
     "ejs": "^2.5.6",
-    "express": "^4.14.1"
+    "express": "^4.15.2"
   }
 }
