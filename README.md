@@ -2,7 +2,8 @@
 
 An example Alexa Skill project using the [alexa-app](https://github.com/alexa-js/alexa-app) module with Express.
 
-## Deploying locally
+## Deploy
+### Deploying locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
@@ -13,13 +14,9 @@ npm install
 npm start
 ```
 
-Your app should now be running on *[http://localhost:8080](http://localhost:8080)*.
+Your app should now be running on **[http://localhost:8080/test](http://localhost:8080/test)**. Put it in your browser to access it's test page.
 
-### Testing it
-
-You can access a test page to verify if the basic setup is working fine: *[http://localhost:8080/test](http://localhost:8080/test)*.
-
-## Deploying to Heroku
+### Deploying to Heroku
 
 ```sh
 heroku create
@@ -31,8 +28,7 @@ Alternatively, you can deploy your own copy of the app using this button:
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/alexa-js/alexa-app-example)
 
-Your app should now be running on *https://`<app-name>`.herokuapp.com*, where `<app-name>` is the heroku app name.
+Your app should now be running on **https://`<app-name>`.herokuapp.com/test**, where `<app-name>` is the heroku app name. Put it in your browser to access it's test page.
 
-### Testing it
-
-You can access a test page to verify if the basic setup is working fine: *https://`<app-name>`.herokuapp.com/test*.
+## Changing the endpoint
+Depending on where you deployed your app, the path for the endpoint of the skill should have a path parameter at the end called `/test`. If you want to change that, simply change [this](https://github.com/alexa-js/alexa-app-example/blob/master/index.js#L8) line to your desired name.
